@@ -1,0 +1,491 @@
+@media (max-width:1359px) {
+    .cars_sel_form_main {
+        width: 90.5%;
+    }
+
+    .our_customer_sec_main .slide_con .slide_imgbox{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width:1359px) and (max-width:1408px) {
+    .cars_sel_form_main {
+        width: 90.5%;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1400px) {
+        .about_citycar_sec_main{
+            padding-bottom: 4rem;
+        }
+}
+
+@media(max-width:1400px) {
+
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width:1280px) {
+    .container {
+        width: 90%;
+    }
+
+    /* about_citycar_sec */
+
+
+    /* .about_citycar_sec_main .about_bottom_bg .citycar_con {
+        padding: 0 5rem;
+    } */
+
+    /* .citycars_sec */
+
+    .citycars_sec_main .imgbox {
+        height: 225px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1024px) {
+    .imgbox .iconbox .iconbox_img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:1024px) {
+
+    /* bannerSec */
+
+    .bannerSec {
+        height: 65vh;
+    }
+
+    .cars_sel_form_main .cars_sel_form .input_main .price_select {
+        width: 275px;
+    }
+
+    .latest_stock_sec .img_col {
+        width: 50%;
+    }
+
+    /* about car sec */
+
+    .about_citycar_sec_main .about_bottom_bg .citycar_con {
+        margin: 0 auto;
+        width: 88%;
+        padding: 0;
+    }
+
+    .about_citycar_sec {
+        margin-top:0px;
+    }
+
+    .about_citycar_sec_main {
+        margin-top:0px;
+        background-color: #00a0df;
+        padding:80px 0;
+        background-image: none;
+    }
+
+    .about_citycar_sec_main .about_citycar_right .car_img{
+        margin-top: 40px;
+    }
+
+    /* .about_citycar_sec .about_citycar_sec_main .about_top_bg {
+        height: 60px;
+        background-position: center center;
+    }
+
+    .about_citycar_sec .about_citycar_sec_main .about_bottom_bg {
+        height: auto;
+        padding-bottom: 100px;
+    } */
+
+    .about_citycar_sec_main .about_bottom_bg .citycar_con {
+        flex-direction: column;
+    }
+
+    .about_citycar_sec_main .about_bottom_bg .about_citycar_left {
+        max-width: 650px;
+    }
+
+    .about_citycar_sec_main .about_citycar_right {
+        width: 100%;
+    }
+
+    /* .citycars_sec */
+
+    .citycars_sec_main .imgbox {
+        height: 178px;
+    }
+
+    /* our customer sec */
+
+    .our_customer_sec_main .slide_con .slide_imgbox{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* footer */
+
+    .footer_box .footer_box_title{
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:991px) {
+
+    .container {
+        width: 95%;
+    }
+
+    /* header */
+
+    .headermain .site_logo {
+        max-width: 250px;
+    }
+
+    .menu_main {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        left: -300px;
+        top: 0;
+        background-color: #fff;
+        width: 50%;
+        height: 100vh;
+        z-index: 9999;
+        transition: all 0.6s ease-in-out;
+    }
+
+    .menu_main .navigation_bar ul {
+        display: block;
+        padding: 0;
+    }
+
+    .menu_main .navigation_bar ul li {
+        display: block;
+        border-bottom: 1px solid #df46377a;
+    }
+
+    .menu_main .navigation_bar ul li:first-child {
+        border-top: 1px solid #df46377a;
+    }
+
+    .menu_main .navigation_bar ul li a {
+        color: #000000;
+    }
+
+    .menu_main .navigation_bar ul li a:hover {
+        color: #e14738;
+    }
+
+    .menu_main .navigation_bar ul li a:before {
+        display: none;
+    }
+
+    .headermain .headtop .top_call .textcall span {
+        display: none;
+    }
+
+    .menu_main .m_menu_logo {
+        display: block;
+        background-color: #e14738c9;
+    }
+
+    .menu_main .navigation_bar ul .submenu_item>a:after {
+        color: #000000;
+        right: 12px;
+        transform: rotate(0deg);
+    }
+
+    .menu_main .navigation_bar ul>li>.submenu {
+        position: relative;
+        top: inherit;
+        left: inherit;
+        width: 100%;
+        background-color: transparent;
+        opacity: inherit;
+        display: none;
+    }
+
+    .menu_main .navigation_bar ul>li>.submenu li:last-child {
+        border: none;
+    }
+
+    .menu_main .navigation_bar ul li:hover .submenu {
+        visibility: hidden;
+    }
+
+    .menu_main .navigation_bar ul>li>.submenu{
+        visibility: hidden;
+        top:-30px !important;
+        transition: all 0.6s ease-in-out;
+    }
+
+    .menu_main .navigation_bar ul>li>.submenu.shows {
+        display: block !important;
+        visibility: visible;
+        opacity: 1;
+        top: 0 !important;
+    }
+
+    .menu_main .navigation_bar ul .submenu_item.menu_icon_rotate .submenu .menu_item {
+        padding-left: 20px;
+    }
+
+    /* banner */
+
+    .bannerSec {
+    height: 35vh;
+    }
+
+    /* car selection */
+
+    .cars_sel_form_main {
+        width: 93.5%;
+    }
+
+    .cars_sel_form_main .cars_sel_form .input_main {
+        width: 32%;
+    }
+
+    .cars_sel_form_main .cars_sel_form .input_main .input_field {
+        width: 100%;
+        margin-right: 0 !important;
+    }
+
+    .cars_sel_form_main .cars_sel_form .buttonrow {
+        width: 32%;
+    }
+
+    .cars_sel_form_main .cars_sel_form .buttonrow .btn-danger {
+        min-width: inherit;
+        width: 100%;
+    }
+
+    /* car-type */
+
+    .car_type_sec .car_type_main .car_type_imgbox {
+        width: 25%;
+        margin-bottom: 10px;
+        padding: 0 15px;
+    }
+
+    /* about car */
+
+    .about_citycar_sec_main .about_bottom_bg .citycar_con {
+        width: 93%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .about_citycar_sec_main .about_bottom_bg .about_citycar_left {
+        max-width: inherit;
+    }
+
+    .about_citycar_sec_main .about_citycar_right {
+        width: 95%;
+        margin: 0 auto;
+        top: 20px;
+    }
+
+    .about_citycar_sec_main .about_citycar_right .car_img {
+        margin-top: 20px;
+     }
+
+    /* citycars_sec */
+
+    .citycars_sec_main .imgbox {
+        height: auto;
+    }
+
+    .citycars_sec_main .imgbox img {
+        height: 265px;
+    }
+
+    .citycars_sec_main .slider_box .slick-prev.slick-arrow {
+        left: -10px;
+        z-index: 1;
+    }
+
+
+    .citycars_sec_main .slider_box .slick-next.slick-arrow {
+        right: -10px;
+    }
+
+    /* our customer sec */
+
+    .our_customer_sec_main .slide_con .slick-prev.slick-arrow {
+        left: 0;
+    }
+
+    .our_customer_sec_main .slide_con .slick-next.slick-arrow {
+        right: 0;
+    }
+
+    /* blog section */
+
+    .our_customer_sec_main .slide_con .slide_imgbox{
+        padding-left:5px;
+        padding-right:5px;
+    }
+}
+
+@media (max-width:767px) {
+
+    .container {
+        width: 95%;
+    }
+
+    /* header */
+
+    .headermain .menu_main {
+        width: 75%;
+    }
+
+    .headermain .headtop .top_location {
+        display: none !important;
+    }
+
+    /* car sel form */
+
+    .cars_sel_form_main {
+        top: 100%;
+        width: 100%;
+        left: 0;
+        min-height: 362px;
+    }
+
+    .cars_sel_form_main .cars_sel_form .input_main {
+        width: 100%;
+    }
+
+    .cars_sel_form_main .cars_sel_form .input_main .input_field {
+        width: 100%;
+    }
+
+    .cars_sel_form_main .cars_sel_form .buttonrow {
+        width: 98%;
+    }
+
+    .car_type_sec {
+        padding-top: 400px;
+        padding-bottom: 0;
+    }
+
+    .car_type_sec .car_type_main .car_type_imgbox {
+        width: 33.33%;
+    }
+
+    /* common-class */
+
+    .sec_head .sec_title {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    /* latest_stock */
+
+    .latest_stock_sec {
+        padding: 50px 0;
+    }
+
+    .latest_stock_sec .img_col {
+        width: 100%;
+    }
+
+    /* about city car */
+
+    /* .about_citycar_sec .about_citycar_sec_main .about_top_bg {
+        height:0;
+        padding-top:50px;
+        background-position: center center;
+    } */
+
+    /* .about_citycar_sec .about_citycar_sec_main .about_bottom_bg {
+        height: auto;
+        background-position: center center;
+        padding-bottom: 5rem;
+    } */
+
+    .about_citycar_sec_main{
+        padding: 40px 0;
+    }
+
+    /* citycars_sec */
+
+    .citycars_sec_main .slider_box .slick-prev.slick-arrow {
+        left: -5px;
+        z-index: 1;
+    }
+
+    .citycars_sec_main .slider_box .slick-next.slick-arrow {
+        right: -5px;
+        z-index: 1;
+    }
+
+    .latest_cam_citycars_sec {
+        margin-top:60px;
+    }
+
+    /* .our_customer_sec  */
+
+    .our_customer_sec {
+        padding-bottom:3rem;
+        padding-top:3rem;
+        margin-top:50px;
+    }
+
+    /* .blog_sec  */
+
+    .blog_sec {
+        padding-bottom: 50px;
+        margin-top: 60px;
+    }
+
+    .blog_sec .sec_head .sec_title{
+        color: #000000;
+    }
+
+    .blog_sec_sec_main .blog_con .imgbox .imgbox_con .imgbox_title{
+        font-size: 16px;
+        line-height:24px;
+    }
+
+    /* footer */
+
+    .site_footer{
+        padding-top:30px;
+    }
+
+    .footer_box .footer_box_title{
+        margin-bottom: 10px;
+    }
+
+    .footer_box .get_in_touch {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width:360px) {
+
+    /* car type */
+
+    .car_type_sec .car_type_main .car_type_imgbox {
+        width: 50%;
+
+    }
+}
+
+/* @media (max-width:290px) {
+    .car_type_sec {
+        margin-top: 45%;
+        padding-bottom: 0;
+    }
+} */

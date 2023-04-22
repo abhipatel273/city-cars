@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Camden City Cars </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <main>
+        <div class="wrapper-main">
+            <header class="headermain">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="#" class="site_logo">
+                                <img src="assets/images/site-logo.png" alt="site-logo">
+                            </a>
+                            <a href="#" class="logo">
+                                <img src="assets/images/site-black-logo.png" alt="site-logo">
+                            </a>
+                        </div>
+                        <div class="col-lg-9 col-md-8 col-6">
+                            <div
+                                class="d-lg-block d-md-flex d-flex align-items-center justify-content-end me-lg-0 me-md-2 me-2">
+                                <div class="sidebar_overlay "></div>
+                                <div class="headtop d-flex align-items-center justify-content-end">
+                                    <div class="top_location d-flex align-items-center">
+                                        <img src="./assets/images/locationimg.png" alt="locationimg" class="icon">
+                                        <span class="textloc">1-3 ironbark ave Camdan NSW 2570</span>
+                                    </div>
+                                    <div class="top_call ms-4 d-flex align-items-center">
+                                        <a class="textcall" href="tell:+61406772222">
+                                            <img src="./assets/images/callimg.png" alt="callimg" class="icon">
+                                            <span>+61 406 772 222</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="menu_icon d-lg-none d-md-inline-flex d-inline-flex ms-lg-0 ms-md-4 ms-4" id="menu">
+                                    <!-- <i class="fas fa-bars menu_icon_image"></i> -->
+                                </div>
+                            </div>
+                            <div class="menu_main">
+                                <div class="m_menu_logo">
+                                    <a href="#" class="site_logo">
+                                        <img src="./assets/images/site-black-logo.png" alt="">
+
+                                    </a>
+                                    <span class="close_botton">
+                                        <i class="fas fa-times"></i>
+                                    </span>
+                                </div>
+                                <nav class="navigation_bar">
+                                    <ul class="d-lg-flex align-items-center justify-content-end mb-0">
+                                        <li class="menu_item">
+                                            <a href="#" class="active">HOME</a>
+
+                                        </li>
+                                        <li class="menu_item">
+                                            <a href="#">ABOUT US</a>
+                                        </li>
+                                        <li class="menu_item submenu_item">
+                                            <a href="#">SEARCHED US CARS</a>
+                                            <ul class="submenu mb-0">
+                                                <li class="menu_item">
+                                                    <a href="#" class="active">Make</a>
+                                                </li>
+                                                <li class="menu_item">
+                                                    <a href="#">Model</a>
+                                                </li>
+                                                <li class="menu_item">
+                                                    <a href="#">Body Type</a>
+                                                </li>
+                                                <li class="menu_item">
+                                                    <a href="#">Price-Min Price-Max</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu_item">
+                                            <a href="#">BLOG</a>
+                                        </li>
+                                        <li class="menu_item">
+                                            <a href="#">CONTACT US</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <!-- banner_sec -->
+
+        <section class="bannerSec">
+            <div class="container">
+                <div class="cars_sel_form_wrapper">
+                    <div class="cars_sel_form_main">
+                        <form action="" class="cars_sel_form d-flex flex-wrap">
+                            <div class="input_main me-2 mb-xxl-0 mb-xl-2 mb-lg-2 mb-md-2 mb-2">
+                                <input type="text" class="input_field" placeholder="search for Keyword">
+                            </div>
+                            <div class="input_main me-2 mb-xxl-0 mb-xl-2 mb-lg-2 mb-md-2 mb-2">
+                                <select class="input_field input_field_select" aria-label="Default select example">
+                                    <option selected>Make</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="input_main me-2 mb-xxl-0 mb-xl-2 mb-lg-2 mb-md-2 mb-2">
+                                <select class="input_field input_field_select" aria-label="Default select example">
+                                    <option selected>Model</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="input_main me-2 mb-lg-0 mb-md-0 mb-2">
+                                <select class="input_field input_field_select" aria-label="Default select example">
+                                    <option selected>Body Type</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="input_main me-2 mb-lg-0 mb-md-0 mb-2">
+                                <select class="input_field input_field_select price_select"
+                                    aria-label="Default select example">
+                                    <option selected>Price Min-Price Max</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="buttonrow">
+                                <button class="btn btn-danger">SUBMIT</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- car_type -->
+
+        <section class="common_sec car_type_sec">
+            <div class="container">
+                <div
+                    class="car_type_main d-flex justify-content-lg-between justify-content-md-start justify-content-start align-items-center flex-wrap">
+                    <div class="car_type_imgbox">
+                        <a href="#">
+                            <div class="car_type_img">
+                                <img src="assets/images/hatch.png" alt="hatch">
+                            </div>
+                            <p class="img_dec">HATCHBACK</p>
+                        </a>
+                    </div>
+                    <div class="car_type_imgbox">
+                        <a href="#">
+                            <div class="car_type_img">
+                                <img src="assets/images/sedan.png" alt="sedan">
+                            </div>
+                            <p class="img_dec">SEDAN</p>
+                        </a>
+                    </div>
+                    <div class="car_type_imgbox">
+                        <a href="#">
+                            <div class="car_type_img">
+                                <img src="assets/images/sedan.png" alt="sedan">
+                            </div>
+                            <p class="img_dec">WAGON</p>
+                        </a>
+                    </div>
+                    <div class="car_type_imgbox">
+                        <a href="#">
+                            <div class="car_type_img">
+                                <img src="assets/images/suv.png" alt="suv">
+                            </div>
+                            <p class="img_dec">SUV</p>
+                        </a>
+                    </div>
+                    <div class="car_type_imgbox coupe_img">
+                        <a href="#">
+                            <div class="car_type_img">
+                                <img src="assets/images/type-coupe.png" alt="coupe">
+                            </div>
+                            <p class="img_dec">COUPE</p>
+                        </a>
+                    </div>
+                    <div class="car_type_imgbox">
+                        <a href="#">
+                            <div class="car_type_img">
+                                <img src="assets/images/convertible.png" alt="convertible">
+                            </div>
+                            <p class="img_dec">CONVERTIBLE</p>
+                        </a>
+                    </div>
+                    <div class="car_type_imgbox">
+                        <a href="#">
+                            <div class="car_type_img">
+                                <img src="assets/images/utility.png" alt="utility">
+                            </div>
+                            <p class="img_dec">UTILITY</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- latest_stock_sec -->
+
+        <section class="common_sec latest_stock_sec">
+            <div class="container">
+                <div class="sec_head">
+                    <h2 class="sec_title">View Our Latest Stock</h2>
+                </div>
+                <div class="latest_stock_main position-relative">
+                    <div class="row car_img_row">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12 h-100">
+                            <div class="imgbox">
+                                <div class="imgbox_img">
+                                    <a href="#">
+                                        <img src="assets/images/hyundai.jpg" alt="hyundai" class="">
+                                    </a>
+                                </div>
+                                <div class="imgbox_con">
+                                    <a href="#">
+                                        <h4 class="imgbox_title mb-3">2011 Hyundai IX35 Highlander 4WD DIesel Good
+                                            Rego...
+                                        </h4>
+                                    </a>
+                                    <p class="imgbox_price_text mb-0">$11950</p>
+                                </div>
+                                <div class="iconbox d-flex align-items-center justify-content-between">
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/price.png" alt="image">
+                                        <span class="">124000</span>
+                                    </div>
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/car_type.png" alt="image">
+                                        <span class="">Auto</span>
+                                    </div>
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/fuel.png" alt="image">
+                                        <span class="">Diesel</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12 h-100">
+                            <div class="imgbox">
+                                <div class="imgbox_img">
+                                    <a href="#">
+                                        <img src="assets/images/toyota.jpg" alt="toyota" class="">
+                                    </a>
+                                </div>
+                                <div class="imgbox_con">
+                                    <a href="#">
+                                        <h4 class="imgbox_title mb-3">2004 Toyota RAV4 Cruiser 4X4 Manual Immaculate
+                                        </h4>
+                                    </a>
+                                    <p class="imgbox_price_text mb-0">$6999</p>
+                                </div>
+                                <div class="iconbox d-flex align-items-center justify-content-between">
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/price.png" alt="image">
+                                        <span class="">124000</span>
+                                    </div>
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/car_type.png" alt="image">
+                                        <span class="">Manual</span>
+                                    </div>
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/fuel.png" alt="image">
+                                        <span class="">Diesel</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12 h-100">
+                            <div class="imgbox">
+                                <div class="imgbox_img">
+                                    <a href="#">
+                                        <img src="assets/images/ford.jpg" alt="ford" class="">
+                                    </a>
+                                </div>
+                                <div class="imgbox_con">
+                                    <a href="#">
+                                        <h4 class="imgbox_title mb-3">2011 Ford Terittory TS MKII Auto Only 114,000KM
+                                            Immaculate
+                                        </h4>
+                                    </a>
+                                    <p class="imgbox_price_text mb-0">$10,990</p>
+                                </div>
+                                <div class="iconbox d-flex align-items-center justify-content-between">
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/price.png" alt="image">
+                                        <span class="">141000</span>
+                                    </div>
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/car_type.png" alt="image">
+                                        <span class="">Auto</span>
+                                    </div>
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/fuel.png" alt="image">
+                                        <span class="">Petrol</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12 h-100">
+                            <div class="imgbox">
+                                <div class="imgbox_img">
+                                    <a href="#">
+                                        <img src="assets/images/pauget.jpg" alt="pauget">
+                                    </a>
+                                </div>
+                                <div class="imgbox_con">
+                                    <a href="#">
+                                        <h4 class="imgbox_title mb-3">2010 Peugeot 207 XT Touring Low
+                                            km Long Rego 18/01/2020</h4>
+                                    </a>
+                                    <p class="imgbox_price_text mb-0">$11,950</p>
+                                </div>
+                                <div class="iconbox d-flex align-items-center justify-content-between">
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/price.png" alt="image">
+                                        <span class="">182000</span>
+                                    </div>
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/car_type.png" alt="image">
+                                        <span class="">Manual</span>
+                                    </div>
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/fuel.png" alt="image">
+                                        <span class="">Diesel</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12 h-100">
+                            <div class="imgbox">
+                                <div class="imgbox_img">
+                                    <a href="#">
+                                        <img src="assets/images/fiesta.jpg" alt="fiesta" class="">
+                                    </a>
+                                </div>
+                                <div class="imgbox_con">
+                                    <a href="#">
+                                        <h4 class="imgbox_title mb-3">2010 Ford Fiesta ZETEC Manual
+                                            Low km Long Rego</h4>
+                                    </a>
+                                    <p class="imgbox_price_text mb-0">$6,750</p>
+                                </div>
+                                <div class="iconbox d-flex align-items-center justify-content-between">
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/price.png" alt="image">
+                                        <span class="">132000</span>
+                                    </div>
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/car_type.png" alt="image">
+                                        <span class="">Manual</span>
+                                    </div>
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/fuel.png" alt="image">
+                                        <span class="">Petrol</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12 h-100">
+                            <div class="imgbox">
+                                <div class="imgbox_img">
+                                    <a href="#">
+                                        <img src="assets/images/holden.jpg" alt="holden" class="">
+                                    </a>
+                                </div>
+                                <div class="imgbox_con">
+                                    <a href="#">
+                                        <h4 class="imgbox_title mb-3">2006 Holden Vz Executive Wagon
+                                            Auto Long Rego</h4>
+                                    </a>
+                                    <p class="imgbox_price_text mb-0">$3,750</p>
+                                </div>
+                                <div class="iconbox d-flex align-items-center justify-content-between">
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/price.png" alt="image">
+                                        <span class="">124000</span>
+                                    </div>
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/car_type.png" alt="image">
+                                        <span class="">Auto</span>
+                                    </div>
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/fuel.png" alt="image">
+                                        <span class="">Petrol</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12 h-100">
+                            <div class="imgbox">
+                                <div class="imgbox_img">
+                                    <a href="#">
+                                        <img src="assets/images/alfa.jpg" alt="alfa" class="">
+                                    </a>
+                                </div>
+                                <div class="imgbox_con">
+                                    <a href="#">
+                                        <h4 class="imgbox_title mb-3">2004 Alfa Romeo 156 TI Sedan Auto
+                                            Only 88,000Km</h4>
+                                    </a>
+                                    <p class="imgbox_price_text mb-0">$4,950</p>
+                                </div>
+                                <div class="iconbox d-flex align-items-center justify-content-between">
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/price.png" alt="image">
+                                        <span class="">88000</span>
+                                    </div>
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/car_type.png" alt="image">
+                                        <span class="">Auto</span>
+                                    </div>
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/fuel.png" alt="image">
+                                        <span class="">Petrol</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12 h-100">
+                            <div class="imgbox">
+                                <div class="imgbox_img">
+                                    <a href="#">
+                                        <img src="assets/images/pauget.jpg" alt="pauget" class="">
+                                    </a>
+                                </div>
+                                <div class="imgbox_con">
+                                    <a href="#">
+                                        <h4 class="imgbox_title mb-3">2004 Peugeot 206 GTI Hatch Only
+                                            68,000Km Manual</h4>
+                                    </a>
+                                    <p class="imgbox_price_text mb-0">$5,950</p>
+                                </div>
+                                <div class="iconbox d-flex align-items-center justify-content-between">
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/price.png" alt="image">
+                                        <span class="">68000</span>
+                                    </div>
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/car_type.png" alt="image">
+                                        <span class="">Manual</span>
+                                    </div>
+                                    <div class="iconbox_img">
+                                        <img src="assets/images/fuel.png" alt="image">
+                                        <span class="">Petrol</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about_citycar_sec -->
+
+        <section class="common_sec about_citycar_sec">
+            <div class="about_citycar_sec_main">
+                <div class="about_top_bg"></div>
+                <div class="about_bottom_bg">
+                    <div class="citycar_con d-flex">
+                        <div class="about_citycar_left">
+                            <div class="sec_head">
+                                <h4 class="sec_title">About Camden City Cars</h4>
+                                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                                    adipisci
+                                    assumenda id obcaecati autem odio incidunt commodi nihil mollitia eveniet
+                                    reiciendis
+                                    vel
+                                    impedit, ex vitae.</p>
+                                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                                    adipisci
+                                    assumenda id obcaecati autem odio incidunt commodi nihil mollitia eveniet
+                                    reiciendis
+                                    vel
+                                    impedit, ex vitae.</p>
+                            </div>
+                            <div class="buttonrow">
+                                <a class="btn btn-outline-primary read_more_btn">Read More</a>
+                            </div>
+                        </div>
+                        <div class="about_citycar_right">
+                            <div class="car_img">
+                                <img src="./assets/images/car-copy.png" alt="car" class="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- latest_cam_citycars_sec -->
+
+        <section class="common_sec latest_cam_citycars_sec">
+            <div class="container">
+                <div class="sec_head">
+                    <h4 class="sec_title">
+                        Latest From Camden City Cars</h4>
+                </div>
+                <div class="citycars_sec_main">
+                    <div class="slider_box">
+                        <div class="slider_item">
+                            <div class="row m-0 img_row">
+                                <div class="col-lg-6 col-md-6 col-12 px-1 pb-2 img_first_col position-relative">
+                                    <div class="imgbox">
+                                        <a href="https://youtu.be/tiLWCNFzThE?list=PLwGdqUZWnOp3aROg4wypcRhZqJG3ajZWJ"
+                                            data-fancybox>
+                                            <img src="./assets/images/video_img.jpg" alt="video_img">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12 px-1 pb-2">
+                                    <div class="imgbox">
+                                        <img src="./assets/images/car_engine.jpg" alt="car_engine">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12 px-1 pb-2">
+                                    <div class="imgbox">
+                                        <img src="./assets/images/car_toyota.jpg" alt="car_toyota">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12 px-1 pb-2">
+                                    <div class="imgbox">
+                                        <img src="./assets/images/car_mercidies.jpg" alt="car_mercidies">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12 px-1 pb-2">
+                                    <div class="imgbox">
+                                        <img src="./assets/images/ferrari.jpg" alt="ferrari">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-12 px-1 pb-2 img_first_col">
+                                    <div class="imgbox">
+                                        <img src="./assets/images/luxury.jpg" alt="luxury">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider_item">
+                            <div class="row m-0">
+                                <div class="col-lg-6 col-md-6 col-12 px-1 pb-2 img_first_col position-relative">
+                                    <div class="imgbox">
+                                        <a href="https://youtu.be/tiLWCNFzThE?list=PLwGdqUZWnOp3aROg4wypcRhZqJG3ajZWJ"
+                                            data-fancybox>
+                                            <img src="./assets/images/video_img.jpg" alt="video_img">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12 px-1 pb-2">
+                                    <div class="imgbox">
+                                        <img src="./assets/images/car_engine.jpg" alt="car_engine">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12 px-1 pb-2">
+                                    <div class="imgbox">
+                                        <img src="./assets/images/car_toyota.jpg" alt="car_toyota">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12 px-1 pb-2">
+                                    <div class="imgbox">
+                                        <img src="./assets/images/car_mercidies.jpg" alt="car_mercidies">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12 px-1 pb-2">
+                                    <div class="imgbox">
+                                        <img src="./assets/images/ferrari.jpg" alt="ferrari">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-12 px-1 pb-2 img_first_col">
+                                    <div class="imgbox">
+                                        <img src="./assets/images/luxury.jpg" alt="luxury">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- what our customer says -->
+
+        <section class="common_sec our_customer_sec">
+            <div class="container">
+                <div class="our_customer_sec_main">
+                    <div class="sec_head">
+                        <h4 class="sec_title">
+                            What Your Customer Says</h4>
+                    </div>
+                    <div class="our_costomer_slider">
+                        <div class="slide_con">
+                            <div class="slide_imgbox">
+                                <div class="slide_img">
+                                    <img src="./assets/images/sakfoon.png" alt="sakfoon">
+                                </div>
+                                <div class="slide_imgbox_con">
+                                    <h5 class="slide_imgbox_title">Fay Skafoon</h5>
+                                    <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500 </p>
+                                </div>
+                            </div>
+                            <div class="slide_imgbox">
+                                <div class="slide_img">
+                                    <img src="./assets/images/clayton.png" alt="clayton">
+                                </div>
+                                <div class="slide_imgbox_con">
+                                    <h5 class="slide_imgbox_title">Kamar EI</h5>
+                                    <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500 </p>
+                                </div>
+                            </div>
+                            <div class="slide_imgbox">
+                                <div class="slide_img">
+                                    <img src="./assets/images/ei.png" alt="ei">
+                                </div>
+                                <div class="slide_imgbox_con">
+                                    <h5 class="slide_imgbox_title">Mat Clayton</h5>
+                                    <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500 </p>
+                                </div>
+                            </div>
+                            <div class="slide_imgbox">
+                                <div class="slide_img">
+                                    <img src="./assets/images/sakfoon.png" alt="sakfoon">
+                                </div>
+                                <div class="slide_imgbox_con">
+                                    <h5 class="slide_imgbox_title">Fay Skafoon</h5>
+                                    <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500 </p>
+                                </div>
+                            </div>
+                            <div class="slide_imgbox">
+                                <div class="slide_img">
+                                    <img src="./assets/images/clayton.png" alt="clayton">
+                                </div>
+                                <div class="slide_imgbox_con">
+                                    <h5 class="slide_imgbox_title">Kamar EI</h5>
+                                    <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500 </p>
+                                </div>
+                            </div>
+                            <div class="slide_imgbox">
+                                <div class="slide_img">
+                                    <img src="./assets/images/ei.png" alt="ei">
+                                </div>
+                                <div class="slide_imgbox_con">
+                                    <h5 class="slide_imgbox_title">Mat Clayton</h5>
+                                    <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500 </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- blog section -->
+
+        <section class="common_sec blog_sec">
+            <div class="container">
+                <div class="blog_sec_sec_main">
+                    <div class="sec_head">
+                        <h4 class="sec_title">
+                            Latest Blog</h4>
+                    </div>
+                    <div class="blog_con">
+                        <div class="blog_slider">
+                            <div class="imgbox_item">
+                                <div class="imgbox">
+                                    <div class="imgbox_img">
+                                        <a href="#">
+                                            <img src="assets/images/audi.jpg" alt="audi">
+                                        </a>
+                                    </div>
+                                    <div class="imgbox_con">
+                                        <a href="#">
+                                            <h4 class="imgbox_title ">Audi Q7 4.2 TDI: World's most powerful
+                                                diesel launched in Australia
+                                            </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imgbox_item">
+                                <div class="imgbox">
+                                    <div class="imgbox_img">
+                                        <a href="#">
+                                            <img src="assets/images/renault.jpg" alt="renault">
+                                        </a>
+                                    </div>
+                                    <div class="imgbox_con">
+                                        <a href="#">
+                                            <h4 class="imgbox_title ">Australia: 2017 Holden Trailblazer – Prices
+                                                Announced</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imgbox_item">
+                                <div class="imgbox">
+                                    <div class="imgbox_img">
+                                        <a href="#">
+                                            <img src="assets/images/renault_2.jpg" alt="renault_2">
+                                        </a>
+                                    </div>
+                                    <div class="imgbox_con">
+                                        <a href="#">
+                                            <h4 class="imgbox_title ">Australia: Renault Captur S-Edition
+                                                Available at $32,990</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imgbox_item">
+                                <div class="imgbox">
+                                    <div class="imgbox_img">
+                                        <a href="#">
+                                            <img src="assets/images/audi.jpg" alt="audi">
+                                        </a>
+                                    </div>
+                                    <div class="imgbox_con">
+                                        <a href="#">
+                                            <h4 class="imgbox_title ">Audi Q7 4.2 TDI: World's most powerful
+                                                diesel launched in Australia
+                                            </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imgbox_item">
+                                <div class="imgbox">
+                                    <div class="imgbox_img">
+                                        <a href="#">
+                                            <img src="assets/images/renault.jpg" alt="renault">
+                                        </a>
+                                    </div>
+                                    <div class="imgbox_con">
+                                        <a href="#">
+                                            <h4 class="imgbox_title">Australia: 2017 Holden Trailblazer – Prices
+                                                Announced</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imgbox_item">
+                                <div class="imgbox">
+                                    <div class="imgbox_img">
+                                        <a href="#">
+                                            <img src="assets/images/renault_2.jpg" alt="renault_2">
+                                        </a>
+                                    </div>
+                                    <div class="imgbox_con">
+                                        <a href="#">
+                                            <h4 class="imgbox_title">Australia: Renault Captur S-Edition
+                                                Available at $32,990
+                                            </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- site_footer -->
+
+        <footer class="site_footer">
+            <div class="footer_main">
+                <div class="container">
+                    <div class="row flex-column-reverse flex-md-row justify-content-center justify-content-md-start">
+                        <div class="col-xl-4 col-lg-12 col-md-12 col-12 mb-xl-0 mb-lg-5 mb-md-4 mb-0 pe-4">
+                            <div class="footer_logo d-md-block d-none">
+                                <a href="#" class="footer_logo_img">
+                                    <img src="./assets/images/site-logo.png" alt="mobile-logo">
+                                </a>
+                            </div>
+                            <p class="footer_text d-md-block d-none">Lorem Ipsum is simply dummy text of the printing
+                                and typesetting
+                                industry. Lorem Ipsum has been..
+                            </p>
+                            <div class="footer_social_icon">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-3 col-12 mb-lg-0 mb-md-0 mb-4 d-md-block d-none">
+                            <div class="footer_box">
+                                <h6 class="footer_box_title">Quick Links</h6>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="active">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Gallery</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-5 col-12 mb-lg-0 mb-md-0 mb-4 d-md-block d-none">
+                            <div class="footer_box">
+                                <h6 class="footer_box_title">Search By Body Type</h6>
+                                <div class="d-flex">
+                                    <ul class="w-50">
+                                        <li>
+                                            <a href="#">Hatchback</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Sedan</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Wegan</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Suv</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="w-50">
+                                        <li>
+                                            <a href="#">Convertibel</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Utility</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Coupe</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="view_more">View More</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-12">
+                            <div class="footer_box">
+                                <h6 class="footer_box_title">Get In Touch</h6>
+                                <div class="get_in_touch">
+                                    <ul>
+                                        <li class="address d-flex align-items-start">
+                                            <img src="./assets/images/locationimg.png" alt="location">
+                                            <p>1-3 ironbark ave Camden NSW 2570<br>
+                                                Camden, New South Wales,<br>
+                                                Australia 2570 </a>
+                                        </li>
+                                        <li class="footer_mail_text">
+                                            <a href="mailto:info@Camdencitycars.com.au">
+                                                <img src="./assets/images/msg.png" alt="msg">info@Camdencitycars.com.au
+                                            </a>
+                                        </li>
+                                        <li class="footer_call_text">
+                                            <a href="tell:+61406772222">
+                                                <img src="./assets/images/callimg.png" alt="call"> +61 406 772 222
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="copyrigth_row d-flex flex-column flex-md-row justify-content-md-between justify-content-center">
+                        <div class="copright_text text-center">
+                            <p class="mb-md-0 mb-2">© 2019 <a href="#" class="#">Camden City Cars</a> | All right
+                                reserved.</p>
+                        </div>
+                        <div class="copright_logo d-flex justify-content-center">
+                            <p class="mb-0">Powered by:</p>
+                            <a href="#">
+                                <img src="./assets/images/copyright-logopng.png" alt="copyright">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="assets/js/fancybox.umd.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+</body>
+
+</html>
